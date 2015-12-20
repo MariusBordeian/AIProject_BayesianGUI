@@ -61,7 +61,6 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.AutoScroll = true;
-            this.tableLayoutPanel1.AutoScrollMinSize = new System.Drawing.Size(0, 10);
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -72,7 +71,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1287, 88);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1287, 10);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tabControl1
@@ -81,10 +80,10 @@
             this.tabControl1.Controls.Add(this.tabPageData);
             this.tabControl1.Controls.Add(this.tabPageGraph);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 155);
+            this.tabControl1.Location = new System.Drawing.Point(0, 77);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1287, 564);
+            this.tabControl1.Size = new System.Drawing.Size(1287, 642);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPageInfo
@@ -132,7 +131,7 @@
             this.tabPageGraph.Controls.Add(this.pictureBox1);
             this.tabPageGraph.Location = new System.Drawing.Point(4, 22);
             this.tabPageGraph.Name = "tabPageGraph";
-            this.tabPageGraph.Size = new System.Drawing.Size(1279, 538);
+            this.tabPageGraph.Size = new System.Drawing.Size(1279, 616);
             this.tabPageGraph.TabIndex = 3;
             this.tabPageGraph.Text = "Graph";
             this.tabPageGraph.UseVisualStyleBackColor = true;
@@ -143,7 +142,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1279, 538);
+            this.pictureBox1.Size = new System.Drawing.Size(1279, 616);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
