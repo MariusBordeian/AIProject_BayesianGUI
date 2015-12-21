@@ -202,7 +202,7 @@ namespace WindowsFormsApplication1
                 tableLayoutPanel1.Controls.Add(combo, i, 1);
             }
             
-            tableLayoutPanel1.Size = new Size(tableLayoutPanel1.PreferredSize.Width, tableLayoutPanel1.PreferredSize.Height);
+            //tableLayoutPanel1.Size = new Size(tableLayoutPanel1.PreferredSize.Width, tableLayoutPanel1.PreferredSize.Height);
             tableLayoutPanel1.Padding = new Padding(0, 0, 0, SystemInformation.HorizontalScrollBarHeight);
             buttonCalc.Enabled = true;
         }

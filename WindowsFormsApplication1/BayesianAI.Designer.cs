@@ -61,6 +61,7 @@
             // tableLayoutPanel1
             // 
             this.tableLayoutPanel1.AutoScroll = true;
+            this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.ColumnCount = 1;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle());
@@ -71,7 +72,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1287, 10);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1287, 0);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
             // tabControl1
@@ -80,10 +81,10 @@
             this.tabControl1.Controls.Add(this.tabPageData);
             this.tabControl1.Controls.Add(this.tabPageGraph);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 77);
+            this.tabControl1.Location = new System.Drawing.Point(0, 67);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1287, 642);
+            this.tabControl1.Size = new System.Drawing.Size(1287, 652);
             this.tabControl1.TabIndex = 2;
             // 
             // tabPageInfo
@@ -112,7 +113,7 @@
             this.tabPageData.Controls.Add(this.datasetTextBox);
             this.tabPageData.Location = new System.Drawing.Point(4, 22);
             this.tabPageData.Name = "tabPageData";
-            this.tabPageData.Size = new System.Drawing.Size(1279, 626);
+            this.tabPageData.Size = new System.Drawing.Size(1279, 616);
             this.tabPageData.TabIndex = 2;
             this.tabPageData.Text = "Data";
             this.tabPageData.UseVisualStyleBackColor = true;
@@ -122,7 +123,7 @@
             this.datasetTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datasetTextBox.Location = new System.Drawing.Point(0, 0);
             this.datasetTextBox.Name = "datasetTextBox";
-            this.datasetTextBox.Size = new System.Drawing.Size(1279, 626);
+            this.datasetTextBox.Size = new System.Drawing.Size(1279, 616);
             this.datasetTextBox.TabIndex = 18;
             this.datasetTextBox.Text = "";
             // 
@@ -304,6 +305,7 @@
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.classIndex)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
