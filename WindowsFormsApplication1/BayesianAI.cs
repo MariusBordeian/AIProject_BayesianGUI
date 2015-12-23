@@ -395,14 +395,15 @@ namespace WindowsFormsApplication1
                 {
                     r.X += offsetX;
                     r.Y += offsetY;
-                    offsetX += r.Width + 5;
+                    offsetX += r.Width + 10;
                 }
                 else if (offsetY + r.Height < pictureBox1.Height)
                 {
                     offsetX = 10;
-                    offsetY += r.Height + 5;
+                    offsetY += r.Height + 10;
                     r.X += offsetX;
                     r.Y += offsetY;
+                    offsetX += r.Width + 10;
                 }
                 else
                 {

@@ -113,7 +113,7 @@
             this.tabPageData.Controls.Add(this.datasetTextBox);
             this.tabPageData.Location = new System.Drawing.Point(4, 22);
             this.tabPageData.Name = "tabPageData";
-            this.tabPageData.Size = new System.Drawing.Size(1279, 616);
+            this.tabPageData.Size = new System.Drawing.Size(1279, 626);
             this.tabPageData.TabIndex = 2;
             this.tabPageData.Text = "Data";
             this.tabPageData.UseVisualStyleBackColor = true;
@@ -123,7 +123,7 @@
             this.datasetTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datasetTextBox.Location = new System.Drawing.Point(0, 0);
             this.datasetTextBox.Name = "datasetTextBox";
-            this.datasetTextBox.Size = new System.Drawing.Size(1279, 616);
+            this.datasetTextBox.Size = new System.Drawing.Size(1279, 626);
             this.datasetTextBox.TabIndex = 18;
             this.datasetTextBox.Text = "";
             // 
@@ -132,7 +132,7 @@
             this.tabPageGraph.Controls.Add(this.pictureBox1);
             this.tabPageGraph.Location = new System.Drawing.Point(4, 22);
             this.tabPageGraph.Name = "tabPageGraph";
-            this.tabPageGraph.Size = new System.Drawing.Size(1279, 616);
+            this.tabPageGraph.Size = new System.Drawing.Size(1279, 626);
             this.tabPageGraph.TabIndex = 3;
             this.tabPageGraph.Text = "Graph";
             this.tabPageGraph.UseVisualStyleBackColor = true;
@@ -143,7 +143,7 @@
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1279, 616);
+            this.pictureBox1.Size = new System.Drawing.Size(1279, 626);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Paint += new System.Windows.Forms.PaintEventHandler(this.pictureBox1_Paint);
