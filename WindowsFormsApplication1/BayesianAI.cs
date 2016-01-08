@@ -150,11 +150,6 @@ namespace WindowsFormsApplication1
             }            
         }
 
-        private void calculateButton_Click(object sender, EventArgs e)
-        {
-            calculateData();
-        }
-
         private void loadData()
         {
             tableLayoutPanel1.RowStyles.Clear();
@@ -199,6 +194,7 @@ namespace WindowsFormsApplication1
 
                 ComboBox combo = new ComboBox();
                 combo.Items.AddRange((from d in comboList select d).Distinct().ToArray());
+                combo.SelectedIndex=0;
                 tableLayoutPanel1.Controls.Add(combo, i, 1);
             }
             
@@ -223,6 +219,14 @@ namespace WindowsFormsApplication1
             }
 
             return contor;
+        }
+
+        private void calculateButton_Click(object sender, EventArgs e)
+        {
+            pictureBox1.CreateGraphics().Dispose();
+            rects = new List<Rect>();
+            lines = new List<Link>();
+            calculateData();
         }
 
         private void calculateData()

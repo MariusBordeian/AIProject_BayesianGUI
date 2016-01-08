@@ -175,9 +175,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(231, 9);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 13);
+            this.label5.Size = new System.Drawing.Size(197, 13);
             this.label5.TabIndex = 36;
-            this.label5.Text = "(0-based)";
+            this.label5.Text = "(NOTE: 0-based, load will fail if not valid)";
             // 
             // label2
             // 
