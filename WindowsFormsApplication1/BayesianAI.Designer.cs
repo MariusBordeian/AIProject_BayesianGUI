@@ -123,6 +123,7 @@
             this.datasetTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.datasetTextBox.Location = new System.Drawing.Point(0, 0);
             this.datasetTextBox.Name = "datasetTextBox";
+            this.datasetTextBox.ReadOnly = true;
             this.datasetTextBox.Size = new System.Drawing.Size(1279, 626);
             this.datasetTextBox.TabIndex = 18;
             this.datasetTextBox.Text = "";
